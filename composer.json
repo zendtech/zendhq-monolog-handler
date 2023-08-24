@@ -1,0 +1,38 @@
+{
+    "name": "zendtech/zendhq-monolog-handler",
+    "description": "Monolog handler that writes to ZendHQ monitoring",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "psr-3",
+        "monolog",
+        "zendhq"
+    ],
+    "require": {
+        "php": "^7.3.0 || ~8.0.0 || ~8.1.0 || ~8.2.0",
+        "ext-zendhq": "*",
+        "monolog/monolog": "^2.4 || ^3.4"
+    },
+    "require-dev": {
+        "laminas/laminas-coding-standard": "~2.3.0",
+        "phpunit/phpunit": "^9.5.11",
+        "phpcompatibility/php-compatibility": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZendTech\\ZendHQ\\MonologHandler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZendTechTest\\ZendHQ\\MonologHandler\\": "test/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "platform": {
+            "php": "7.3.99"
+        }
+    }
+}
