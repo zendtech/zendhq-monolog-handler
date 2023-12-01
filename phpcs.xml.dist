@@ -20,5 +20,5 @@
     <!-- Include all rules from Laminas Coding Standard -->
     <rule ref="LaminasCodingStandard"/>
     <rule ref="PHPCompatibility"/>
-    <config name="testVersion" value="7.3-8.2"/>
+    <config name="testVersion" value="7.3-8.3"/>
 </ruleset>
