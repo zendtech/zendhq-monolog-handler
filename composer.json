@@ -8,7 +8,7 @@
         "zendhq"
     ],
     "require": {
-        "php": "^7.3.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+        "php": "^7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
         "ext-zendhq": "*",
         "monolog/monolog": "^2.4 || ^3.4"
     },
@@ -32,7 +32,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "platform": {
-            "php": "7.3.99"
+            "php": "7.4.99"
         }
     }
 }
